@@ -48,8 +48,16 @@ To open/modify the game itself: open `UnityProject/` in Unity 6000.4.6f1 (AR Fou
 - **The painted anatomical regions are prototype annotations.** They were authored for this
   hackathon prototype and were **not created or clinically validated using authoritative anatomical
   references**. Do not treat region boundaries as medically/anatomically authoritative.
-- **This project was developed with substantial AI assistance from Claude and Codex** (AI coding
-  assistants), used throughout implementation, debugging, and testing.
+
+## AI Assistance Disclosure
+
+This project was developed with substantial assistance from several AI tools:
+
+- ChatGPT was used for project planning, research, concept development, technical troubleshooting, presentation development, documentation, and creating detailed implementation prompts.
+- OpenAI Codex was used to inspect, implement, debug, test, and document portions of the Unity, Android, computer-vision, and backend code.
+- Anthropic Claude was used to inspect, implement, debug, test, organize, and document portions of the project and prepare the GitHub release.
+
+The project team directed the work, selected the final design, supplied the physical models and testing conditions, evaluated outputs, performed physical-device testing, and remains responsible for the final project. AI-generated suggestions and code were reviewed and tested before inclusion.
 
 ## Licensing
 
