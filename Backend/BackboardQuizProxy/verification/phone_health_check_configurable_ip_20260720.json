@@ -1,0 +1,12 @@
+{
+  "verifiedAtLocalDate": "2026-07-20",
+  "device": "Galaxy Note 9",
+  "url": "http://192.168.2.244:8765/health",
+  "result": "success",
+  "observedResponse": {"status": "ok"},
+  "userConfirmed": true,
+  "transport": "private Wi-Fi LAN",
+  "proxyMode": "mock",
+  "backboardKeyLoaded": false,
+  "mockProxyStoppedGracefully": true
+}

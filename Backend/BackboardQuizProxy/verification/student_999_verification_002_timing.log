@@ -1,0 +1,12 @@
+Started server process [350952]
+Waiting for application startup.
+Application startup complete.
+Uvicorn running on http://127.0.0.1:8767 (Press CTRL+C to quit)
+message_send_started attempt=1
+HTTP Request: POST https://app.backboard.io/api/threads/messages "HTTP/1.1 500 Internal Server Error"
+message_send_failed elapsed_ms=157042 exception_class=HTTPStatusError timeout_stage=none attempt=1
+Hint fallback used (secrets redacted)
+Shutting down
+Waiting for application shutdown.
+Application shutdown complete.
+Finished server process [350952]

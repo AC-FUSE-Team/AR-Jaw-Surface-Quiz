@@ -1,0 +1,59 @@
+{
+  "apk": {
+    "path": "/home/omar/JawRepair/JawSurfaceQuiz_BackboardProxy_Test.apk",
+    "sha256": "3a6ce5721fb3510caa4f99111297265cb7ef3525fe1c3be089e2e2b8d4dcde27",
+    "bytes": 55088014,
+    "package": "com.omar.jawsurfacequiztest",
+    "displayName": "Jaw Surface Quiz Backboard Test",
+    "versionName": "1.4.1-quiz-backboard-lan-test",
+    "versionCode": 27,
+    "minSdk": 25,
+    "targetSdk": 36,
+    "launchActivity": "com.unity3d.player.UnityPlayerGameActivity",
+    "orientation": "FULL_USER (13)",
+    "architecture": ["arm64-v8a"],
+    "scriptingBackend": "IL2CPP",
+    "graphicsApis": ["OpenGLES3"],
+    "vulkan": false,
+    "privateLanCleartextEnabled": true,
+    "signing": "Android Debug certificate; APK Signature Scheme v2",
+    "signatureVerified": true
+  },
+  "launchScene": {
+    "builtScene0": "Assets/JawAR/Quiz/Editor/JawSurfaceQuiz_PhoneProxy_Build.unity",
+    "sourceScene": "Assets/Scenes/JawArUcoAnatomy_SurfaceQuiz_AR.unity",
+    "temporaryCopyDeleted": true,
+    "privateProxyUrlMatchCount": 1
+  },
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.CAMERA",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.omar.jawsurfacequiztest.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "permissionsAbsent": ["android.permission.RECORD_AUDIO"],
+  "manifestQueries": ["android.intent.action.TTS_SERVICE"],
+  "manifestQueriesAbsent": ["android.speech.RecognitionService"],
+  "securityScan": {
+    "activeBackboardKeyMatchesInTrackedFiles": 0,
+    "activeBackboardKeyMatchesInApk": 0,
+    "prototypeTokenMatchesInTrackedFiles": 0,
+    "prototypeTokenFilesInApk": 1,
+    "secretMatchesInProcessArguments": 0,
+    "techCrackersEnvironmentFileAccessed": false,
+    "note": "The Tech Crackers key was not value-scanned because opening it is prohibited; it was never sourced or available to the build process."
+  },
+  "tests": {
+    "proxy": "18 passed",
+    "unityEditMode": "55 passed"
+  },
+  "restoration": {
+    "temporarySceneDeleted": true,
+    "projectSettingsRestored": true,
+    "editorBuildSettingsRestored": true,
+    "androidManifestRestored": true,
+    "protectedHashesMatchBaseline": true,
+    "v25ApkOverwritten": false
+  },
+  "buildWarning": "Unity logged the existing ARCore reference-image processor arcoreimg warning, then completed the APK successfully with zero build-summary errors. The quiz uses OpenCV ArUco, not AR tracked-image tracking."
+}

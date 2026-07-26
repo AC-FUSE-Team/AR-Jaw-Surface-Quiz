@@ -1,0 +1,47 @@
+{
+  "generatedAtUtc": "2026-07-20T01:29:20.639868+00:00",
+  "memoryCount": {
+    "after": 1,
+    "before": 1
+  },
+  "message": {
+    "assistantId": "db7650a2...249b",
+    "elapsedMs": 4313,
+    "httpStatus": 200,
+    "memoryMode": "Readonly",
+    "memoryOperationReturned": false,
+    "messageId": "b3659809...39de",
+    "messageRequestCount": 1,
+    "modelName": "gpt-4o",
+    "modelProvider": "openai",
+    "newThreadVerified": true,
+    "retries": 0,
+    "sameAssistantReturned": true,
+    "sanitizedResponse": "You have repeatedly confused the Right Mental Foramen with the Mental Protuberance during jaw-identification practice.",
+    "source": "backboard",
+    "threadId": "253c9098...8d15"
+  },
+  "recall": {
+    "correctConfusionRecalled": true,
+    "expectedMemoryId": "da427774...123d",
+    "matchingRetrievedMemoryId": null,
+    "retrievedExpectedMemory": false,
+    "retrievedMemoryCount": 1
+  },
+  "safety": {
+    "apiKeyStored": false,
+    "getRequests": 2,
+    "postPath": "/threads/messages",
+    "postRequests": 1,
+    "previousQueueReplayed": false,
+    "rawResponsesStored": false,
+    "unrelatedMemoryContentStored": false
+  },
+  "usage": {
+    "billingEventObserved": true,
+    "billingMemoryWriteObserved": false,
+    "inputTokens": 220,
+    "outputTokens": 22,
+    "totalTokens": 242
+  }
+}

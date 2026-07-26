@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/JawArUcoAnatomy_AR.unity
+    guid: 9c0aa6150308e8b92866f89be356629b
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: c48fc52fb42ecab499cef911e0df1575, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: be09f01f76a814146a9723c15f9b5233, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d7c00b0abb6f0654d9a2c1ce57a2f868, type: 2}

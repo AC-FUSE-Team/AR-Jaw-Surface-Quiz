@@ -1,0 +1,197 @@
+{
+  "alternatives": [
+    {
+      "api_mode": "responses",
+      "context_limit": 1047576,
+      "max_output_tokens": null,
+      "model_type": "llm",
+      "name": "gpt-4.1",
+      "provider": "openai",
+      "supports_json_output": true,
+      "supports_thinking": false,
+      "supports_tools": true,
+      "supports_vision": true
+    },
+    {
+      "api_mode": "responses",
+      "context_limit": 1047576,
+      "max_output_tokens": 32768,
+      "model_type": "llm",
+      "name": "gpt-4.1-mini",
+      "provider": "openai",
+      "supports_json_output": true,
+      "supports_thinking": false,
+      "supports_tools": true,
+      "supports_vision": true
+    },
+    {
+      "api_mode": "responses",
+      "context_limit": 1047576,
+      "max_output_tokens": 32768,
+      "model_type": "llm",
+      "name": "gpt-4.1-nano",
+      "provider": "openai",
+      "supports_json_output": true,
+      "supports_thinking": false,
+      "supports_tools": true,
+      "supports_vision": true
+    }
+  ],
+  "assistant": {
+    "assistantId": "4b3d53b1...d67a",
+    "configuredLlmModel": null,
+    "configuredLlmProvider": null,
+    "createdAt": "2026-07-19T23:40:12",
+    "customFactExtractionPromptPresent": true,
+    "customUpdateMemoryPromptPresent": false,
+    "documentSearchTopK": 10,
+    "embeddingDimensions": 3072,
+    "embeddingModel": "text-embedding-3-large",
+    "embeddingProvider": "openai",
+    "localThreadMappingPresent": false,
+    "name": "Jaw quiz learner student_999",
+    "responseFieldNames": [
+      "assistant_id",
+      "created_at",
+      "custom_fact_extraction_prompt",
+      "custom_update_memory_prompt",
+      "description",
+      "embedding_dims",
+      "embedding_model_name",
+      "embedding_provider",
+      "name",
+      "system_prompt",
+      "tok_k",
+      "tools"
+    ],
+    "systemPromptPresent": true,
+    "toolNames": [],
+    "toolsCount": 0,
+    "updatedAt": null
+  },
+  "billing": {
+    "autoReloadEnabled": false,
+    "recentUsageEventCountReturned": 0,
+    "recentUsagePagination": {
+      "page": 1,
+      "page_size": 5,
+      "total": 0,
+      "total_pages": 0
+    },
+    "summary30d": {
+      "reads_count": 0,
+      "token_input_tokens": 0,
+      "token_output_tokens": 0,
+      "total_spending_usd": 0.0,
+      "writes_count": 0
+    },
+    "usablePositiveBalance": false
+  },
+  "calls": [
+    {
+      "elapsedMs": 355,
+      "label": "get_assistant",
+      "method": "GET",
+      "path": "/assistants/{student_assistant_id}",
+      "requestId": null,
+      "status": 200
+    },
+    {
+      "elapsedMs": 85,
+      "label": "list_providers",
+      "method": "GET",
+      "path": "/models/providers",
+      "requestId": null,
+      "status": 200
+    },
+    {
+      "elapsedMs": 222,
+      "label": "list_effective_provider_models",
+      "method": "GET",
+      "path": "/models",
+      "requestId": null,
+      "status": 200
+    },
+    {
+      "elapsedMs": 115,
+      "label": "get_effective_model",
+      "method": "GET",
+      "path": "/models/gpt-4o",
+      "requestId": null,
+      "status": 200
+    },
+    {
+      "elapsedMs": 78,
+      "label": "get_embedding_model",
+      "method": "GET",
+      "path": "/models/embedding/text-embedding-3-large",
+      "requestId": null,
+      "status": 200
+    },
+    {
+      "elapsedMs": 215,
+      "label": "get_balance",
+      "method": "GET",
+      "path": "/billing/balance",
+      "requestId": null,
+      "status": 200
+    },
+    {
+      "elapsedMs": 84,
+      "label": "get_recent_usage",
+      "method": "GET",
+      "path": "/billing/usage/recent",
+      "requestId": null,
+      "status": 200
+    },
+    {
+      "elapsedMs": 223,
+      "label": "get_usage_summary",
+      "method": "GET",
+      "path": "/billing/usage/summary",
+      "requestId": null,
+      "status": 200
+    }
+  ],
+  "effectiveMessageDefaults": {
+    "model": "gpt-4o",
+    "provider": "openai",
+    "reason": "assistant has no stored LLM override"
+  },
+  "effectiveModel": {
+    "api_mode": "responses",
+    "context_limit": 128000,
+    "max_output_tokens": 16384,
+    "model_type": "llm",
+    "name": "gpt-4o",
+    "provider": "openai",
+    "supports_json_output": true,
+    "supports_thinking": false,
+    "supports_tools": true,
+    "supports_vision": true
+  },
+  "embeddingModel": {
+    "context_limit": 8191,
+    "name": "text-embedding-3-large",
+    "provider": "openai"
+  },
+  "generatedAtUtc": "2026-07-20T00:14:23.352678+00:00",
+  "providerListMatchedModel": true,
+  "providers": {
+    "effectiveProviderPresent": true,
+    "embeddingProviderPresent": true,
+    "total": 11
+  },
+  "safety": {
+    "apiKeyStored": false,
+    "httpMethodsUsed": [
+      "GET"
+    ],
+    "memoriesRetrieved": false,
+    "postRequests": 0,
+    "rawBodiesStored": false,
+    "rawHeadersStored": false,
+    "retries": 0
+  },
+  "scope": "GET-only read-only Backboard investigation; no retries"
+}

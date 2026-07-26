@@ -1,0 +1,12 @@
+{
+  "verifiedAtLocalDate": "2026-07-19",
+  "device": "Galaxy Note 9",
+  "url": "http://10.70.221.178:8765/health",
+  "result": "success",
+  "observedResponse": {"status": "ok"},
+  "userConfirmed": true,
+  "transport": "private Wi-Fi LAN",
+  "proxyMode": "mock",
+  "backboardKeyLoaded": false,
+  "notes": "Android browser displayed its Pretty print view and status ok. Mock proxy was stopped gracefully after confirmation."
+}

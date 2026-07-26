@@ -1,0 +1,40 @@
+{
+  "attempts": [
+    {
+      "attempt_number": 2,
+      "backboard_reference": "",
+      "backboard_state": "stored",
+      "correct": 0,
+      "event_id": "6e30f9c3-2a28-45a1-8dac-1d287ee8134e",
+      "expected_region_id": "RightMentalForamen",
+      "hint_level": 1,
+      "object_id": "jaw",
+      "question_id": "q_mock_1",
+      "received_utc": "2026-07-20 01:48:20",
+      "region_map_version": "data-v4:mock",
+      "response_time_seconds": 7.2,
+      "selected_region_id": "MentalProtuberance",
+      "session_id": "mock_session_001",
+      "student_id": "student_demo_001",
+      "utc_timestamp": "2026-07-20T01:48:20.668816Z"
+    },
+    {
+      "attempt_number": 2,
+      "backboard_reference": "mock-7892d471-bf11-41c2-9dbe-92e2bec6ed02",
+      "backboard_state": "synced",
+      "correct": 0,
+      "event_id": "7923e102-a135-4343-8fda-5f9226f062a3",
+      "expected_region_id": "RightMentalForamen",
+      "hint_level": 1,
+      "object_id": "jaw",
+      "question_id": "q_mock_2",
+      "received_utc": "2026-07-20 01:48:20",
+      "region_map_version": "data-v4:mock",
+      "response_time_seconds": 7.2,
+      "selected_region_id": "MentalProtuberance",
+      "session_id": "mock_session_001",
+      "student_id": "student_demo_001",
+      "utc_timestamp": "2026-07-20T01:48:20.725027Z"
+    }
+  ]
+}

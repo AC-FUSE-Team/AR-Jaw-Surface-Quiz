@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cf6bed333dc9890b973d4fedb7e2bbf, type: 3}
+  m_Name: JawSurfaceRegionMap
+  m_EditorClassIdentifier: BMC.JawAR.SurfaceRegions.Runtime::BMC.JawAR.SurfaceRegions.JawSurfaceRegionMap
+  dataVersion: 1
+  sourceMesh: {fileID: -2432090755550338912, guid: 33acd21dca872032bbf2265d39501ac0, type: 3}
+  sourceMeshAssetGuid: 33acd21dca872032bbf2265d39501ac0
+  sourceMeshName: default
+  vertexCount: 82652
+  triangleCount: 165316
+  submeshCount: 1
+  submeshIndexCounts: 4c910700
+  meshSignatureSha256: 3c5f4c7560b267630b03096517c063e6b694f5c4a5055d351617fe3d946a9206
+  createdUtc: 2026-07-17T23:15:38.4917720Z
+  modifiedUtc: 2026-07-17T23:15:38.4982910Z
+  regions:
+  - stableId: LowerIncisors
+    displayName: Lower Incisors
+    displayColor: {r: 1, g: 0.42000002, b: 0.42000002, a: 1}
+    triangleIndices: 
+    bakedOverlayMesh: {fileID: 0}
+  - stableId: LeftRamus
+    displayName: Left Ramus
+    displayColor: {r: 0.42000002, g: 0.5892417, b: 1, a: 1}
+    triangleIndices: 
+    bakedOverlayMesh: {fileID: 0}
+  - stableId: RightRamus
+    displayName: Right Ramus
+    displayColor: {r: 0.75848335, g: 1, b: 0.42000002, a: 1}
+    triangleIndices: 
+    bakedOverlayMesh: {fileID: 0}
+  - stableId: LeftCondylarProcess
+    displayName: Left Condylar Process
+    displayColor: {r: 1, g: 0.42000002, b: 0.927725, a: 1}
+    triangleIndices: 
+    bakedOverlayMesh: {fileID: 0}
+  - stableId: RightCondylarProcess
+    displayName: Right Condylar Process
+    displayColor: {r: 0.42000002, g: 1, b: 0.9030334, a: 1}
+    triangleIndices: 
+    bakedOverlayMesh: {fileID: 0}
+  - stableId: LeftCoronoidProcess
+    displayName: Left Coronoid Process
+    displayColor: {r: 1, g: 0.7337913, b: 0.42000002, a: 1}
+    triangleIndices: 
+    bakedOverlayMesh: {fileID: 0}
+  - stableId: RightCoronoidProcess
+    displayName: Right Coronoid Process
+    displayColor: {r: 0.56455004, g: 0.42000002, b: 1, a: 1}
+    triangleIndices: 
+    bakedOverlayMesh: {fileID: 0}
+  - stableId: LeftMentalForamen
+    displayName: Left Mental Foramen
+    displayColor: {r: 0.44469124, g: 1, b: 0.42000002, a: 1}
+    triangleIndices: 
+    bakedOverlayMesh: {fileID: 0}
+  - stableId: RightMentalForamen
+    displayName: Right Mental Foramen
+    displayColor: {r: 1, g: 0.42000002, b: 0.6139333, a: 1}
+    triangleIndices: 
+    bakedOverlayMesh: {fileID: 0}
+  - stableId: MentalProtuberance
+    displayName: Mental Protuberance
+    displayColor: {r: 0.42000002, g: 0.7831754, b: 1, a: 1}
+    triangleIndices: 
+    bakedOverlayMesh: {fileID: 0}
+  - stableId: AlveolarProcess
+    displayName: Alveolar Process
+    displayColor: {r: 0.95241743, g: 1, b: 0.42000002, a: 1}
+    triangleIndices: 
+    bakedOverlayMesh: {fileID: 0}
+  - stableId: LeftMasseterInsertion
+    displayName: Left Masseter Insertion
+    displayColor: {r: 0.87834215, g: 0.42000002, b: 1, a: 1}
+    triangleIndices: 
+    bakedOverlayMesh: {fileID: 0}
+  - stableId: RightMasseterInsertion
+    displayName: Right Masseter Insertion
+    displayColor: {r: 0.42000002, g: 1, b: 0.70910007, a: 1}
+    triangleIndices: 
+    bakedOverlayMesh: {fileID: 0}
+  - stableId: LeftTemporalisInsertion
+    displayName: Left Temporalis Insertion
+    displayColor: {r: 1, g: 0.539858, b: 0.42000002, a: 1}
+    triangleIndices: 
+    bakedOverlayMesh: {fileID: 0}
+  - stableId: RightTemporalisInsertion
+    displayName: Right Temporalis Insertion
+    displayColor: {r: 0.42000002, g: 0.46938246, b: 1, a: 1}
+    triangleIndices: 
+    bakedOverlayMesh: {fileID: 0}
+  - stableId: LeftBuccinatorOrigin
+    displayName: Left Buccinator Origin
+    displayColor: {r: 0.63862616, g: 1, b: 0.42000002, a: 1}
+    triangleIndices: 
+    bakedOverlayMesh: {fileID: 0}
+  - stableId: RightBuccinatorOrigin
+    displayName: Right Buccinator Origin
+    displayColor: {r: 1, g: 0.42000002, b: 0.8078666, a: 1}
+    triangleIndices: 
+    bakedOverlayMesh: {fileID: 0}
+  - stableId: LeftDepressorAnguliOrisOrigin
+    displayName: Left Depressor Anguli Oris Origin
+    displayColor: {r: 0.42000002, g: 0.977107, b: 1, a: 1}
+    triangleIndices: 
+    bakedOverlayMesh: {fileID: 0}
+  - stableId: RightDepressorAnguliOrisOrigin
+    displayName: Right Depressor Anguli Oris Origin
+    displayColor: {r: 1, g: 0.85364926, b: 0.42000002, a: 1}
+    triangleIndices: 
+    bakedOverlayMesh: {fileID: 0}
+  - stableId: LeftDepressorLabiiInferiorisOrigin
+    displayName: Left Depressor Labii Inferioris Origin
+    displayColor: {r: 0.68440884, g: 0.42000002, b: 1, a: 1}
+    triangleIndices: 
+    bakedOverlayMesh: {fileID: 0}
+  - stableId: RightDepressorLabiiInferiorisOrigin
+    displayName: Right Depressor Labii Inferioris Origin
+    displayColor: {r: 0.42000002, g: 1, b: 0.5151651, a: 1}
+    triangleIndices: 
+    bakedOverlayMesh: {fileID: 0}
+  - stableId: MentalisOrigin
+    displayName: Mentalis Origin
+    displayColor: {r: 1, g: 0.42000002, b: 0.49407533, a: 1}
+    triangleIndices: 
+    bakedOverlayMesh: {fileID: 0}
+  - stableId: OrbicularisOrisReference
+    displayName: Orbicularis Oris Reference
+    displayColor: {r: 0.42000002, g: 0.6633158, b: 1, a: 1}
+    triangleIndices: 
+    bakedOverlayMesh: {fileID: 0}

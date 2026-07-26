@@ -1,0 +1,74 @@
+{
+  "studentId": "student_demo_001",
+  "sessionId": "phone_integration_real_001",
+  "messageRequestCount": 2,
+  "autoCount": 1,
+  "readonlyCount": 1,
+  "events": [
+    {
+      "stage": "attempt_1",
+      "httpStatus": 200,
+      "elapsedMs": 93,
+      "accepted": true,
+      "duplicate": false,
+      "eventId": "688cadbf-426d-47ca-877f-7e9d5118d8ee"
+    },
+    {
+      "stage": "learning_policy_1",
+      "httpStatus": 200,
+      "elapsedMs": 7,
+      "accepted": true,
+      "memoryAction": "off",
+      "reason": "not_durable_yet",
+      "source": "local-policy",
+      "text": "",
+      "responseReference": ""
+    },
+    {
+      "stage": "attempt_2",
+      "httpStatus": 200,
+      "elapsedMs": 35,
+      "accepted": true,
+      "duplicate": false,
+      "eventId": "99176410-fd8d-4c7d-830f-6d8e7100ee74"
+    },
+    {
+      "stage": "learning_policy_2",
+      "httpStatus": 200,
+      "elapsedMs": 7126,
+      "accepted": true,
+      "memoryAction": "Auto",
+      "reason": "recurring_confusion_pair",
+      "source": "backboard",
+      "text": "Focus on the position; the right mental foramen is usually below the premolars, unlike the mental protuberance at the midline.",
+      "responseReference": "708a843d-a272-41f9-9253-e77b520a2a35"
+    },
+    {
+      "stage": "readonly_hint",
+      "httpStatus": 200,
+      "elapsedMs": 3620,
+      "source": "backboard",
+      "text": "The mental protuberance is located on the midline of the mandible, while the right mental foramen is slightly lateral to it, typically found below the premolars. Try looking for a small opening on each side where nerves and vessels exit.",
+      "responseReference": "7505619a-8e81-4126-b599-fe088444e751",
+      "usage": {
+        "inputTokens": 131,
+        "outputTokens": 52,
+        "totalTokens": 183
+      }
+    },
+    {
+      "stage": "sqlite_teacher_detail",
+      "httpStatus": 200,
+      "elapsedMs": 13,
+      "attempts": 2,
+      "accuracy": 0.0,
+      "confusionPairs": [
+        {
+          "expected": "RightMentalForamen",
+          "selected": "MentalProtuberance",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

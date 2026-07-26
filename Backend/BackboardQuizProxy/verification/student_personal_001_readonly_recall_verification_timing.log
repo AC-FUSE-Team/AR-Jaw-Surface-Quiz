@@ -1,0 +1,5 @@
+message_send_started attempt=1 endpoint=/threads/messages memory=Readonly thread_id=omitted
+message_send_completed elapsed_ms=4313 http_status=200 attempt=1
+memory_list_get_completed http_status=200
+recent_usage_get_completed http_status=200
+local_persistence_completed

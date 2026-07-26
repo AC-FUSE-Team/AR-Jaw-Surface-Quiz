@@ -1,0 +1,60 @@
+{
+  "assistantId": "db7650a2...249b",
+  "billingUsage": {
+    "memoryWriteEventCountInBoundedPage": 1,
+    "memoryWriteRecorded": true,
+    "pagination": {
+      "page": 1,
+      "page_size": 5,
+      "total": 6,
+      "total_pages": 2
+    },
+    "recentEventsInspected": 5
+  },
+  "calls": [
+    {
+      "elapsedMs": 376,
+      "httpStatus": 200,
+      "label": "list_personal_assistant_memories",
+      "method": "GET",
+      "path": "/assistants/{personal_assistant_id}/memories"
+    },
+    {
+      "elapsedMs": 92,
+      "httpStatus": 200,
+      "label": "get_recent_billing_usage",
+      "method": "GET",
+      "path": "/billing/usage/recent"
+    }
+  ],
+  "generatedAtUtc": "2026-07-20T01:23:13.303010+00:00",
+  "matchingMemory": {
+    "belongsToExpectedAssistant": true,
+    "createdAt": "2026-07-20T00:38:01",
+    "memoryId": "da427774...123d",
+    "metadataKeys": [],
+    "sanitizedSummary": "Synthetic learner difficulty: recurring confusion between RightMentalForamen and MentalProtuberance during jaw-identification practice."
+  },
+  "matchingMemoryCountInBoundedPage": 1,
+  "matchingMemoryFound": true,
+  "memoryStats": {
+    "boundedItemsInspected": 1,
+    "page": 1,
+    "pageSize": 10,
+    "separateDocumentedStatsEndpointAvailable": false,
+    "totalCount": 1,
+    "totalPages": 1
+  },
+  "safety": {
+    "apiKeyStored": false,
+    "httpMethodsUsed": [
+      "GET"
+    ],
+    "rawResponsesStored": false,
+    "requestCount": 2,
+    "retries": 0,
+    "threadContentRetrieved": false,
+    "unrelatedMemoryContentStored": false
+  },
+  "scope": "GET-only personal-assistant memory inspection; zero retries"
+}

@@ -1,0 +1,131 @@
+{
+  "attempts": {
+    "duplicate": {
+      "accepted": false,
+      "duplicate": true,
+      "eventId": "7923e102-a135-4343-8fda-5f9226f062a3",
+      "queuedForBackboard": false
+    },
+    "first": {
+      "accepted": true,
+      "duplicate": false,
+      "eventId": "6e30f9c3-2a28-45a1-8dac-1d287ee8134e",
+      "queuedForBackboard": false
+    },
+    "second": {
+      "accepted": true,
+      "duplicate": false,
+      "eventId": "7923e102-a135-4343-8fda-5f9226f062a3",
+      "queuedForBackboard": false
+    }
+  },
+  "eventIds": [
+    "6e30f9c3-2a28-45a1-8dac-1d287ee8134e",
+    "7923e102-a135-4343-8fda-5f9226f062a3"
+  ],
+  "exports": {
+    "csvStatus": 200,
+    "jsonRows": 2,
+    "jsonStatus": 200
+  },
+  "health": {
+    "body": {
+      "status": "ok"
+    },
+    "status": 200
+  },
+  "hint": {
+    "source": "mock",
+    "status": 200,
+    "text": "Look for RightMentalForamen by comparing its location with MentalProtuberance. Take your time and try the highlighted anatomy again."
+  },
+  "memoryPolicy": {
+    "first": {
+      "accepted": true,
+      "duplicate": false,
+      "memoryAction": "off",
+      "reason": "not_durable_yet",
+      "responseReference": "",
+      "source": "local-policy",
+      "text": ""
+    },
+    "second": {
+      "accepted": true,
+      "duplicate": false,
+      "memoryAction": "Auto",
+      "reason": "recurring_confusion_pair",
+      "responseReference": "mock-memory-600427b9-2dc4-4b37-8867-62333ef0a356",
+      "source": "mock",
+      "text": "Mock learning memory recorded for RightMentalForamen and its recurring confusion with MentalProtuberance."
+    }
+  },
+  "phase": "connected_then_offline",
+  "teacher": {
+    "detail": {
+      "accuracy": 0.0,
+      "ai_summary": "",
+      "attempts": 2,
+      "average_response_time": 7.2,
+      "confusion_pairs": [
+        {
+          "count": 2,
+          "expected": "RightMentalForamen",
+          "selected": "MentalProtuberance"
+        }
+      ],
+      "hints_used": 2,
+      "queued_sync": 0,
+      "recent_sessions": [
+        {
+          "accuracy": 0.0,
+          "attempts": 2,
+          "ended_utc": "2026-07-20T01:48:20.725027Z",
+          "session_id": "mock_session_001",
+          "started_utc": "2026-07-20T01:48:20.668816Z"
+        }
+      ],
+      "recommended_regions_json": "[]",
+      "recommended_review_regions": [],
+      "regions": [
+        {
+          "accuracy": 0.0,
+          "attempts": 2,
+          "average_response_time": 7.2,
+          "region": "RightMentalForamen"
+        }
+      ],
+      "student_id": "student_demo_001"
+    },
+    "regions": {
+      "regions": [
+        {
+          "accuracy": 0.0,
+          "attempts": 2,
+          "average_response_time": 7.2,
+          "hints_used": 2,
+          "region": "RightMentalForamen"
+        }
+      ]
+    },
+    "students": {
+      "students": [
+        {
+          "accuracy": 0.0,
+          "ai_summary": "",
+          "attempts": 2,
+          "average_response_time": 7.2,
+          "hints_used": 2,
+          "queued_sync": 0,
+          "recommended_regions_json": "[]",
+          "recommended_review_regions": [],
+          "student_id": "student_demo_001"
+        }
+      ]
+    }
+  },
+  "tokenEnforcement": {
+    "bad": 401,
+    "missing": 401,
+    "valid": 200
+  }
+}

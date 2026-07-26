@@ -1,0 +1,9 @@
+attempt_1 completed http_status=200 elapsed_ms=93 memory_action=off
+learning_policy_1 completed http_status=200 elapsed_ms=7 reason=not_durable_yet
+attempt_2 completed http_status=200 elapsed_ms=35
+memory_write completed http_status=200 elapsed_ms=7126 memory=Auto retries=0
+readonly_hint completed http_status=200 elapsed_ms=3620 memory=Readonly retries=0
+teacher_sqlite_detail completed http_status=200 elapsed_ms=13 attempts=2 accuracy=0
+memory_list_get_1 completed http_status=200 elapsed_ms=187 count=0 retries=0
+recent_usage_get completed http_status=200 elapsed_ms=113 retries=0
+memory_list_get_2 completed http_status=200 elapsed_ms=157 count=0 retries=0

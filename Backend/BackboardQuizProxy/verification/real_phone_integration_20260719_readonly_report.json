@@ -1,0 +1,32 @@
+{
+  "generatedAtUtc": "2026-07-20T01:56:23.662806+00:00",
+  "studentId": "student_demo_001",
+  "assistantId": "152bad18...b827",
+  "calls": [
+    {
+      "method": "GET",
+      "path": "/assistants/{assistant_id}/memories",
+      "httpStatus": 200,
+      "elapsedMs": 187
+    },
+    {
+      "method": "GET",
+      "path": "/billing/usage/recent",
+      "httpStatus": 200,
+      "elapsedMs": 113
+    }
+  ],
+  "memoryCount": 0,
+  "matchingMemoryFound": false,
+  "matchingMemories": [],
+  "recentUsage": {
+    "boundedEventsInspected": 10,
+    "memoryWriteEvents": 0,
+    "generationEvents": 0
+  },
+  "safety": {
+    "retries": 0,
+    "rawResponsesStored": false,
+    "apiKeyStored": false
+  }
+}

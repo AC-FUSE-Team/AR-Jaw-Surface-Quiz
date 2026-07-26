@@ -1,0 +1,20 @@
+{
+  "offlineConfirmed": true,
+  "queuedAttempt": {
+    "attemptNumber": 1,
+    "backboardResponseReference": "",
+    "correct": false,
+    "eventId": "6acf428a-69ea-4265-94e0-22cfe7e5452e",
+    "expectedStableRegionId": "LeftMentalForamen",
+    "hintLevel": 0,
+    "objectId": "jaw",
+    "questionId": "q_mock_offline",
+    "regionMapVersion": "data-v4:mock",
+    "responseTimeSeconds": 8.1,
+    "selectedStableRegionId": "MentalProtuberance",
+    "sessionId": "mock_session_001",
+    "studentId": "student_demo_001",
+    "synchronizationState": "pending",
+    "utcTimestamp": "2026-07-20T01:48:50.090293+00:00"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "BMC.JawAR.SurfaceRegions.Runtime",
+  "rootNamespace": "BMC.JawAR.SurfaceRegions",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

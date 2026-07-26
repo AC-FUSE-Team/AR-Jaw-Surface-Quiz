@@ -1,0 +1,15 @@
+{
+  "name": "BMC.JawAR.SurfaceRegions.EditorTests",
+  "rootNamespace": "BMC.JawAR.SurfaceRegions.Tests",
+  "references": ["BMC.JawAR.SurfaceRegions.Runtime"],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "optionalUnityReferences": ["TestAssemblies"]
+}

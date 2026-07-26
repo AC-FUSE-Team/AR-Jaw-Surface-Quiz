@@ -1,0 +1,312 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc2a80ddeffadfecfb3a096813e983f8, type: 3}
+  m_Name: JawQuizStarterBank
+  m_EditorClassIdentifier: Assembly-CSharp::BMC.JawAR.Quiz.JawQuizQuestionBank
+  bankId: jaw-surface-starter-v1
+  questions:
+  - questionId: jaw.region.lower-incisors.v1
+    expectedRegionId: LowerIncisors
+    displayPrompt: Identify the Lower Incisors.
+    spokenPrompt: Identify the Lower Incisors.
+    correctFeedback: "Correct \u2014 you identified the Lower Incisors."
+    incorrectFeedback: Not quite. Compare the selected colour with the landmark location.
+    firstHint: Look along the tooth-bearing upper border.
+    secondHint: The lower incisors occupy the anterior midline of the mandibular
+      dental arch.
+    educationalExplanation: The lower incisors occupy the anterior midline of the
+      mandibular dental arch.
+    difficulty: 0
+    enabled: 1
+  - questionId: jaw.region.left-ramus.v1
+    expectedRegionId: LeftRamus
+    displayPrompt: Identify the Left Ramus.
+    spokenPrompt: Identify the Left Ramus.
+    correctFeedback: "Correct \u2014 you identified the Left Ramus."
+    incorrectFeedback: Not quite. Compare the selected colour with the landmark location.
+    firstHint: Look on the anatomical left side of the mandible.
+    secondHint: The ramus is the broad ascending posterior part of the mandible.
+    educationalExplanation: The ramus is the broad ascending posterior part of the
+      mandible.
+    difficulty: 0
+    enabled: 1
+  - questionId: jaw.region.right-ramus.v1
+    expectedRegionId: RightRamus
+    displayPrompt: Identify the Right Ramus.
+    spokenPrompt: Identify the Right Ramus.
+    correctFeedback: "Correct \u2014 you identified the Right Ramus."
+    incorrectFeedback: Not quite. Compare the selected colour with the landmark location.
+    firstHint: Look on the anatomical right side of the mandible.
+    secondHint: The ramus is the broad ascending posterior part of the mandible.
+    educationalExplanation: The ramus is the broad ascending posterior part of the
+      mandible.
+    difficulty: 0
+    enabled: 1
+  - questionId: jaw.region.left-condylar-process.v1
+    expectedRegionId: LeftCondylarProcess
+    displayPrompt: Identify the Left Condylar Process.
+    spokenPrompt: Identify the Left Condylar Process.
+    correctFeedback: "Correct \u2014 you identified the Left Condylar Process."
+    incorrectFeedback: Not quite. Compare the selected colour with the landmark location.
+    firstHint: Look on the anatomical left side of the mandible.
+    secondHint: The condylar process is the posterior superior projection that articulates
+      at the temporomandibular joint.
+    educationalExplanation: The condylar process is the posterior superior projection
+      that articulates at the temporomandibular joint.
+    difficulty: 1
+    enabled: 1
+  - questionId: jaw.region.right-condylar-process.v1
+    expectedRegionId: RightCondylarProcess
+    displayPrompt: Identify the Right Condylar Process.
+    spokenPrompt: Identify the Right Condylar Process.
+    correctFeedback: "Correct \u2014 you identified the Right Condylar Process."
+    incorrectFeedback: Not quite. Compare the selected colour with the landmark location.
+    firstHint: Look on the anatomical right side of the mandible.
+    secondHint: The condylar process is the posterior superior projection that articulates
+      at the temporomandibular joint.
+    educationalExplanation: The condylar process is the posterior superior projection
+      that articulates at the temporomandibular joint.
+    difficulty: 1
+    enabled: 1
+  - questionId: jaw.region.left-coronoid-process.v1
+    expectedRegionId: LeftCoronoidProcess
+    displayPrompt: Identify the Left Coronoid Process.
+    spokenPrompt: Identify the Left Coronoid Process.
+    correctFeedback: "Correct \u2014 you identified the Left Coronoid Process."
+    incorrectFeedback: Not quite. Compare the selected colour with the landmark location.
+    firstHint: Look on the anatomical left side of the mandible.
+    secondHint: The coronoid process is the anterior superior projection of the ramus.
+    educationalExplanation: The coronoid process is the anterior superior projection
+      of the ramus.
+    difficulty: 1
+    enabled: 1
+  - questionId: jaw.region.right-coronoid-process.v1
+    expectedRegionId: RightCoronoidProcess
+    displayPrompt: Identify the Right Coronoid Process.
+    spokenPrompt: Identify the Right Coronoid Process.
+    correctFeedback: "Correct \u2014 you identified the Right Coronoid Process."
+    incorrectFeedback: Not quite. Compare the selected colour with the landmark location.
+    firstHint: Look on the anatomical right side of the mandible.
+    secondHint: The coronoid process is the anterior superior projection of the ramus.
+    educationalExplanation: The coronoid process is the anterior superior projection
+      of the ramus.
+    difficulty: 1
+    enabled: 1
+  - questionId: jaw.region.left-mental-foramen.v1
+    expectedRegionId: LeftMentalForamen
+    displayPrompt: Identify the Left Mental Foramen.
+    spokenPrompt: Identify the Left Mental Foramen.
+    correctFeedback: "Correct \u2014 you identified the Left Mental Foramen."
+    incorrectFeedback: Not quite. Compare the selected colour with the landmark location.
+    firstHint: Look on the anatomical left side of the mandible.
+    secondHint: The mental foramen is an opening on the anterolateral mandibular
+      body, commonly near the premolars.
+    educationalExplanation: The mental foramen is an opening on the anterolateral
+      mandibular body, commonly near the premolars.
+    difficulty: 1
+    enabled: 1
+  - questionId: jaw.region.right-mental-foramen.v1
+    expectedRegionId: RightMentalForamen
+    displayPrompt: Identify the Right Mental Foramen.
+    spokenPrompt: Identify the Right Mental Foramen.
+    correctFeedback: "Correct \u2014 you identified the Right Mental Foramen."
+    incorrectFeedback: Not quite. Compare the selected colour with the landmark location.
+    firstHint: Look on the anatomical right side of the mandible.
+    secondHint: The mental foramen is an opening on the anterolateral mandibular
+      body, commonly near the premolars.
+    educationalExplanation: The mental foramen is an opening on the anterolateral
+      mandibular body, commonly near the premolars.
+    difficulty: 1
+    enabled: 1
+  - questionId: jaw.region.mental-protuberance.v1
+    expectedRegionId: MentalProtuberance
+    displayPrompt: Identify the Mental Protuberance.
+    spokenPrompt: Identify the Mental Protuberance.
+    correctFeedback: "Correct \u2014 you identified the Mental Protuberance."
+    incorrectFeedback: Not quite. Compare the selected colour with the landmark location.
+    firstHint: Look near the anterior chin region.
+    secondHint: The mental protuberance forms the central prominence of the chin.
+    educationalExplanation: The mental protuberance forms the central prominence
+      of the chin.
+    difficulty: 0
+    enabled: 1
+  - questionId: jaw.region.alveolar-process.v1
+    expectedRegionId: AlveolarProcess
+    displayPrompt: Identify the Alveolar Process.
+    spokenPrompt: Identify the Alveolar Process.
+    correctFeedback: "Correct \u2014 you identified the Alveolar Process."
+    incorrectFeedback: Not quite. Compare the selected colour with the landmark location.
+    firstHint: Look along the tooth-bearing upper border.
+    secondHint: The alveolar process is the tooth-bearing superior portion of the
+      mandibular body.
+    educationalExplanation: The alveolar process is the tooth-bearing superior portion
+      of the mandibular body.
+    difficulty: 1
+    enabled: 1
+  - questionId: jaw.region.left-masseter-insertion.v1
+    expectedRegionId: LeftMasseterInsertion
+    displayPrompt: Identify the Left Masseter Insertion.
+    spokenPrompt: Identify the Left Masseter Insertion.
+    correctFeedback: "Correct \u2014 you identified the Left Masseter Insertion."
+    incorrectFeedback: Not quite. Compare the selected colour with the landmark location.
+    firstHint: Look on the anatomical left side of the mandible.
+    secondHint: The masseter inserts on the lateral ramus and mandibular angle.
+    educationalExplanation: The masseter inserts on the lateral ramus and mandibular
+      angle.
+    difficulty: 2
+    enabled: 1
+  - questionId: jaw.region.right-masseter-insertion.v1
+    expectedRegionId: RightMasseterInsertion
+    displayPrompt: Identify the Right Masseter Insertion.
+    spokenPrompt: Identify the Right Masseter Insertion.
+    correctFeedback: "Correct \u2014 you identified the Right Masseter Insertion."
+    incorrectFeedback: Not quite. Compare the selected colour with the landmark location.
+    firstHint: Look on the anatomical right side of the mandible.
+    secondHint: The masseter inserts on the lateral ramus and mandibular angle.
+    educationalExplanation: The masseter inserts on the lateral ramus and mandibular
+      angle.
+    difficulty: 2
+    enabled: 1
+  - questionId: jaw.region.left-temporalis-insertion.v1
+    expectedRegionId: LeftTemporalisInsertion
+    displayPrompt: Identify the Left Temporalis Insertion.
+    spokenPrompt: Identify the Left Temporalis Insertion.
+    correctFeedback: "Correct \u2014 you identified the Left Temporalis Insertion."
+    incorrectFeedback: Not quite. Compare the selected colour with the landmark location.
+    firstHint: Look on the anatomical left side of the mandible.
+    secondHint: The temporalis inserts mainly on the coronoid process and anterior
+      ramus.
+    educationalExplanation: The temporalis inserts mainly on the coronoid process
+      and anterior ramus.
+    difficulty: 2
+    enabled: 1
+  - questionId: jaw.region.right-temporalis-insertion.v1
+    expectedRegionId: RightTemporalisInsertion
+    displayPrompt: Identify the Right Temporalis Insertion.
+    spokenPrompt: Identify the Right Temporalis Insertion.
+    correctFeedback: "Correct \u2014 you identified the Right Temporalis Insertion."
+    incorrectFeedback: Not quite. Compare the selected colour with the landmark location.
+    firstHint: Look on the anatomical right side of the mandible.
+    secondHint: The temporalis inserts mainly on the coronoid process and anterior
+      ramus.
+    educationalExplanation: The temporalis inserts mainly on the coronoid process
+      and anterior ramus.
+    difficulty: 2
+    enabled: 1
+  - questionId: jaw.region.left-buccinator-origin.v1
+    expectedRegionId: LeftBuccinatorOrigin
+    displayPrompt: Identify the Left Buccinator Origin.
+    spokenPrompt: Identify the Left Buccinator Origin.
+    correctFeedback: "Correct \u2014 you identified the Left Buccinator Origin."
+    incorrectFeedback: Not quite. Compare the selected colour with the landmark location.
+    firstHint: Look on the anatomical left side of the mandible.
+    secondHint: The buccinator has mandibular attachment near the posterior alveolar
+      region.
+    educationalExplanation: The buccinator has mandibular attachment near the posterior
+      alveolar region.
+    difficulty: 2
+    enabled: 1
+  - questionId: jaw.region.right-buccinator-origin.v1
+    expectedRegionId: RightBuccinatorOrigin
+    displayPrompt: Identify the Right Buccinator Origin.
+    spokenPrompt: Identify the Right Buccinator Origin.
+    correctFeedback: "Correct \u2014 you identified the Right Buccinator Origin."
+    incorrectFeedback: Not quite. Compare the selected colour with the landmark location.
+    firstHint: Look on the anatomical right side of the mandible.
+    secondHint: The buccinator has mandibular attachment near the posterior alveolar
+      region.
+    educationalExplanation: The buccinator has mandibular attachment near the posterior
+      alveolar region.
+    difficulty: 2
+    enabled: 1
+  - questionId: jaw.region.left-depressor-anguli-oris-origin.v1
+    expectedRegionId: LeftDepressorAnguliOrisOrigin
+    displayPrompt: Identify the Left Depressor Anguli Oris Origin.
+    spokenPrompt: Identify the Left Depressor Anguli Oris Origin.
+    correctFeedback: "Correct \u2014 you identified the Left Depressor Anguli Oris
+      Origin."
+    incorrectFeedback: Not quite. Compare the selected colour with the landmark location.
+    firstHint: Look on the anatomical left side of the mandible.
+    secondHint: Depressor anguli oris originates from the oblique line of the mandibular
+      body.
+    educationalExplanation: Depressor anguli oris originates from the oblique line
+      of the mandibular body.
+    difficulty: 2
+    enabled: 1
+  - questionId: jaw.region.right-depressor-anguli-oris-origin.v1
+    expectedRegionId: RightDepressorAnguliOrisOrigin
+    displayPrompt: Identify the Right Depressor Anguli Oris Origin.
+    spokenPrompt: Identify the Right Depressor Anguli Oris Origin.
+    correctFeedback: "Correct \u2014 you identified the Right Depressor Anguli Oris
+      Origin."
+    incorrectFeedback: Not quite. Compare the selected colour with the landmark location.
+    firstHint: Look on the anatomical right side of the mandible.
+    secondHint: Depressor anguli oris originates from the oblique line of the mandibular
+      body.
+    educationalExplanation: Depressor anguli oris originates from the oblique line
+      of the mandibular body.
+    difficulty: 2
+    enabled: 1
+  - questionId: jaw.region.left-depressor-labii-inferioris-origin.v1
+    expectedRegionId: LeftDepressorLabiiInferiorisOrigin
+    displayPrompt: Identify the Left Depressor Labii Inferioris Origin.
+    spokenPrompt: Identify the Left Depressor Labii Inferioris Origin.
+    correctFeedback: "Correct \u2014 you identified the Left Depressor Labii Inferioris
+      Origin."
+    incorrectFeedback: Not quite. Compare the selected colour with the landmark location.
+    firstHint: Look on the anatomical left side of the mandible.
+    secondHint: Depressor labii inferioris originates from the anterior mandibular
+      body between the midline and oblique line.
+    educationalExplanation: Depressor labii inferioris originates from the anterior
+      mandibular body between the midline and oblique line.
+    difficulty: 2
+    enabled: 1
+  - questionId: jaw.region.right-depressor-labii-inferioris-origin.v1
+    expectedRegionId: RightDepressorLabiiInferiorisOrigin
+    displayPrompt: Identify the Right Depressor Labii Inferioris Origin.
+    spokenPrompt: Identify the Right Depressor Labii Inferioris Origin.
+    correctFeedback: "Correct \u2014 you identified the Right Depressor Labii Inferioris
+      Origin."
+    incorrectFeedback: Not quite. Compare the selected colour with the landmark location.
+    firstHint: Look on the anatomical right side of the mandible.
+    secondHint: Depressor labii inferioris originates from the anterior mandibular
+      body between the midline and oblique line.
+    educationalExplanation: Depressor labii inferioris originates from the anterior
+      mandibular body between the midline and oblique line.
+    difficulty: 2
+    enabled: 1
+  - questionId: jaw.region.mentalis-origin.v1
+    expectedRegionId: MentalisOrigin
+    displayPrompt: Identify the Mentalis Origin.
+    spokenPrompt: Identify the Mentalis Origin.
+    correctFeedback: "Correct \u2014 you identified the Mentalis Origin."
+    incorrectFeedback: Not quite. Compare the selected colour with the landmark location.
+    firstHint: Look near the anterior chin region.
+    secondHint: The mentalis originates from the incisive region of the anterior
+      mandible.
+    educationalExplanation: The mentalis originates from the incisive region of the
+      anterior mandible.
+    difficulty: 2
+    enabled: 1
+  - questionId: jaw.region.orbicularis-oris-reference.v1
+    expectedRegionId: OrbicularisOrisReference
+    displayPrompt: Identify the Orbicularis Oris Reference.
+    spokenPrompt: Identify the Orbicularis Oris Reference.
+    correctFeedback: "Correct \u2014 you identified the Orbicularis Oris Reference."
+    incorrectFeedback: Not quite. Compare the selected colour with the landmark location.
+    firstHint: Use the coloured surface boundaries and the anatomical legend.
+    secondHint: This painted area is a reference for the perioral orbicularis oris
+      relationship.
+    educationalExplanation: This painted area is a reference for the perioral orbicularis
+      oris relationship.
+    difficulty: 0
+    enabled: 1

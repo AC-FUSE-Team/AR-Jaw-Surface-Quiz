@@ -1,0 +1,3 @@
+message_send_started attempt=1 endpoint=/threads/messages memory=Auto
+message_send_completed elapsed_ms=9423 http_status=200 attempt=1
+local_persistence_completed

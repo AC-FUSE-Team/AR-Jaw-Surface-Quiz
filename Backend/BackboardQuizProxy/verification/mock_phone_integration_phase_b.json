@@ -1,0 +1,22 @@
+{
+  "duplicate": {
+    "accepted": false,
+    "duplicate": true,
+    "eventId": "6acf428a-69ea-4265-94e0-22cfe7e5452e",
+    "queuedForBackboard": false
+  },
+  "exportRows": 3,
+  "replay": {
+    "accepted": true,
+    "duplicate": false,
+    "eventId": "6acf428a-69ea-4265-94e0-22cfe7e5452e",
+    "queuedForBackboard": false
+  },
+  "status": {
+    "backboardAvailable": true,
+    "mode": "mock",
+    "proxyConnected": true,
+    "queuedLearningEvents": 0
+  },
+  "studentAttempts": 3
+}

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.sqlite3-wal
+*.sqlite3-shm
+.pytest_cache/
+.venv/
